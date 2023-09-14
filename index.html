@@ -6,19 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todo New</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1 class="heading">To Do List</h1>
+    <header class="header">
+        <h1 class="heading">List App</h1>
     </header>
     <div class="form" >
         <form onsubmit="user_data(event)">
-            <input type="email"  id="email">
-            <input type="password"  id="password">
-            <input type="submit" value="Submit">
+            <input class="user_input" type="email"  id="email" placeholder="Enter Your Email">
+            <input class="user_input" type="password"  id="password" placeholder="Enter Your Password">
+            <input class="submit-btn" type="submit" value="Submit">
         </form>
     </div>
     <div id="li_div"></div>
+    
 
 
 
